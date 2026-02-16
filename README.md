@@ -1,17 +1,16 @@
 # data-science-project
-# Análisis Exploratorio de Anuncios de Coches
+# Exploratory Data Analysis Web App | Price & Mileage Insights Using Python
 
-Esta aplicación web fue desarrollada con Streamlit y permite realizar
-un análisis exploratorio interactivo de un conjunto de datos de anuncios
-de venta de coches en Estados Unidos.
+This project consists of an interactive web application built with Streamlit to perform exploratory data analysis (EDA) on U.S. vehicle listings data. The objective is to identify trends, relationships, and patterns between vehicle price and mileage.
 
-## Funcionalidades
-- Visualización del conjunto de datos
-- Histograma del odómetro
-- Gráfico de dispersión entre precio y kilometraje
-- Gráficos interactivos con Plotly
+Key Analysis
+*Distribution analysis of vehicle mileage
+*Price vs. mileage correlation analysis
+*Interactive visualizations using Plotly
+*Data preprocessing and cleaning
 
-## Ejecución
+Tools: Python, Pandas, Streamlit, Plotly
+
 ```bash
 streamlit run app.py
 
